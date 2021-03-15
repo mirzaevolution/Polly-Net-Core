@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PollyIntro", "PollyIntro\PollyIntro.csproj", "{B5AFBC2D-0B01-4374-987A-2E4FA3CA28F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoListApp", "TodoListApp\TodoListApp.csproj", "{4A05DCEF-E462-4602-AFDC-EF245E6B0157}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5AFBC2D-0B01-4374-987A-2E4FA3CA28F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5AFBC2D-0B01-4374-987A-2E4FA3CA28F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5AFBC2D-0B01-4374-987A-2E4FA3CA28F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5AFBC2D-0B01-4374-987A-2E4FA3CA28F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A05DCEF-E462-4602-AFDC-EF245E6B0157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A05DCEF-E462-4602-AFDC-EF245E6B0157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A05DCEF-E462-4602-AFDC-EF245E6B0157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A05DCEF-E462-4602-AFDC-EF245E6B0157}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFE4694A-3A18-4A52-85A5-A3CE396A36AD}
+	EndGlobalSection
+EndGlobal

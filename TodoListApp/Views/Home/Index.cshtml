@@ -1,0 +1,29 @@
+﻿@model List<TodoViewModel>
+@{
+    ViewData["Title"] = "Todo List";
+}
+
+<h3>Todo List</h3>
+
+<table class="table table-bordered table-hover table-striped">
+    <thead class="bg-primary">
+		<tr>
+			<th class="text-light">User Id</th>
+			<th class="text-light">Todo Id</th>
+			<th class="text-light">Title</th>
+			<th class="text-light">Status</th>
+		</tr>
+    </thead>
+	<tbody>
+		@foreach(var item in Model)
+		{
+			<tr>
+				<td>@item.UserId</td>
+				<td>@item.TodoId</td>
+				<td>@item.Title</td>
+				<td>@(item.Completed ? "Completed" : "Not Completed")</td>
+			</tr>
+		}
+	</tbody>
+</table>
+
